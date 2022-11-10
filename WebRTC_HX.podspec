@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'WebRTC_HX/Classes/WebRTC.xcframework/ios-arm64/WebRTC.framework/Headers/*.{h,m}'
+  s.source       = { :http => "https://github.com/a42279395/WebRTC_HX/releases/download/0.1.0/WebRTC.xcframework.zip" }
+  s.vendored_frameworks = "WebRTC.xcframework"
   
   # s.resource_bundles = {
   #   'WebRTC_HX' => ['WebRTC_HX/Assets/*.png']
