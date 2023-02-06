@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WebRTC_HX'
-  s.version          = '1.1.2'
+  s.version          = '1.1.4'
   s.summary          = 'A short description of WebRTC_HX.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source       = { :http => "https://github.com/a42279395/WebRTC_HX/releases/download/1.1.2/WebRTC.xcframework.zip" }
+  s.source       = { :http => "https://github.com/a42279395/WebRTC_HX/releases/download/1.1.4/WebRTC.xcframework.zip" }
   s.vendored_frameworks = "WebRTC.xcframework"
   
   # s.resource_bundles = {
