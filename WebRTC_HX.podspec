@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'WebRTC_HX'
   s.version          = '1.1.4'
   s.summary          = 'A short description of WebRTC_HX.'
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
